@@ -1,0 +1,212 @@
+*{
+	padding: 0;
+	margin: 0;
+	border: 0;
+}
+:before,*:after{
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+nav,footer,header,aside{display: block;}
+html,body{
+	height: 100%;
+	width: 100%;
+	font-size: 100%;
+	line-height: 1;
+	font-size: 14px;
+	-ms-text-size-adjust: 100%;
+	-moz-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+}
+input,button,textarea{font-family:inherit;}
+input::-ms-clear{display: none;}
+button{cursor: pointer;}
+button::-moz-focus-inner {padding:0;border:0;}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+img{vertical-align: top;}
+h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
+
+/* ..............................*/
+
+
+
+body{
+padding-top: 170px;
+
+background: url(images/bg-pattern-top.svg) -200px -500px, url(images/bg-pattern-bottom.svg) 900px 400px;
+background-repeat: no-repeat;
+
+background-color: rgba(25, 161, 174, 1);
+
+}
+
+.top_image{
+	z-index: 2;
+margin-top: 400px;
+width: 978px;
+height: 976px;
+left: 1180.29px;
+top: 1554.84px;
+
+}
+
+
+container{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.main{
+background: url(images/bg-pattern-card.svg)no-repeat;
+background-color: #FFFFFF;
+height: 374px;
+width: 350px;
+left: 0px;
+top: 0px;
+padding-bottom: 30px;
+border-radius: 15px;
+box-shadow: 0px 50px 100px -20px rgba(8, 70, 94, 0.504835);
+
+
+}
+
+.main_profile{
+width: 96px;
+height: 96px;
+left: calc(50% - 96px/2);
+top: calc(50% - 96px/2 - 47px);
+border-radius: 50%;
+background: url(Image.png);
+border: 5px solid #FFFFFF;
+margin-top: 92px;
+margin-left: 127px;
+margin-right: 127px;
+}
+
+.main_text{
+	display: flex;
+	padding-left: 107px;
+	padding-bottom: 13px;
+}
+.main_name{
+	font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #2E3349;
+height: 18px;
+left: 0%;
+right: 22.96%;
+top: calc(50% - 18px/2 - 2.5px);
+padding-right: 8px;
+
+}
+
+.victors_age{
+	height: 18px;
+	left: 83.33%;
+	right: 0.37%;
+	top: calc(50% - 18px/2 - 2.5px);
+	font-family: 'Kumbh Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 22px;
+	text-align: center;
+	color: #6B7082;
+	
+	
+}
+
+.main_city{
+height: 14px;
+left: 42.86%;
+right: 42.86%;
+top: calc(50% - 14px/2 + 63px);
+padding-bottom: 30px;
+
+font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 17px;
+text-align: center;
+color: #6B7082;
+
+
+
+
+}
+
+hr{
+	background: #E8E9EC;
+    height: 1px;
+    width: 350px;
+    border-radius: 0px;
+	margin-bottom: 28px;
+}
+
+.main__status{
+	display: flex;
+	justify-content: space-between;
+	padding-right: 59px;
+	padding-left: 56px;
+	padding-bottom: 10px;
+}
+
+.folowers{
+	font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+color: #2E3349;
+
+}
+.likes{
+	font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2E3349;
+}
+.photos{
+	font-family: 'Kumbh Sans';
+font-style: normal;
+font-weight: 700;
+font-size: 18px;
+line-height: 22px;
+text-align: center;
+
+color: #2E3349;
+}
+
+.status_text{
+	display: flex;
+	justify-content: space-between;
+	padding: 0px 55px;
+	font-family: 'Kumbh Sans';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 10px;
+	line-height: 12px;
+	text-align: center;
+	letter-spacing: 1.5px;
+
+	color: #6B7082;
+	
+}
+
+
